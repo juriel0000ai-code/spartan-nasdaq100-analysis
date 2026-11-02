@@ -1,0 +1,7 @@
+# Spartans analysis repo — ignore anything not source HTML/MD
+
+.env
+*.log
+*.pyc
+__pycache__/
+.DS_Store

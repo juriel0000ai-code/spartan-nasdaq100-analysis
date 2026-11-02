@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QQQ Nasdaq 100 · Previsión 14-oct-2026</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#14181f;--mut:#5b6573;--bd:#dfe3ea;--up:#0a7d43;--dn:#c0302b;--fl:#6b7280;--ac:#1d4ed8}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1116;--card:#171b22;--tx:#e8ebf0;--mut:#9aa4b2;--bd:#2a313c;--up:#3fc17a;--dn:#ff6b64;--fl:#9aa4b2;--ac:#7aa2ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:24px 16px}
+main{max-width:1100px;margin:auto}
+.kicker{color:var(--ac);font-size:12px;font-weight:700;letter-spacing:.06em}
+h1{margin:4px 0 8px;font-size:30px}
+h2{margin:32px 0 12px;font-size:19px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px}
+.warn{border-left:4px solid var(--dn)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:14px}
+.kpi{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px}
+.kpi b{display:block;font-size:22px}.kpi span{color:var(--mut);font-size:12px}
+.wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;background:var(--card);border:1px solid var(--bd);border-radius:10px;font-size:14px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--bd);text-align:left;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);white-space:nowrap}
+td.n{white-space:nowrap;text-align:right;font-variant-numeric:tabular-nums}
+.up{color:var(--up)}.dn{color:var(--dn)}.fl{color:var(--fl)}
+.tag{font-weight:700;white-space:nowrap}
+ul{margin:0;padding-left:20px}li{margin:4px 0}
+.chart svg{width:100%;height:auto;display:block}
+.small{font-size:12.5px;color:var(--mut)}
+</style>
+</head>
+<body>
+<main>
+<div class="kicker">ANÁLISIS INTRADÍA · SESIÓN AMERICANA · MIÉRCOLES 14 DE OCTUBRE DE 2026</div>
+<h1>QQQ (Nasdaq 100): qué hará de 9:00 al cierre</h1>
+<p>14 tramos de 30 minutos y 7 bloques de 1 hora (hora de Nueva York, ET). Partimos del cierre del martes 13 de octubre: <b>743,57 $ (−0,33 %)</b>. Factores clave: <b>IPC de septiembre a las 8:30</b> (consenso +0,6 % mensual / 3,6 % interanual), <b>resultados de ASML</b> antes de la apertura, bono a 10 años en el <b>5,22 %</b>, Brent por encima de <b>100 $</b>, debilidad de los chips de memoria y VIX en <b>16,87</b>.</p>
+
+<div class="card warn">
+<b>Previsión preliminar, no operable tal cual.</b> No he podido obtener el precio real del QQQ en pre-market a las 9:00 ET, ni el dato real del IPC, ni los niveles de opciones (call/put wall, gamma). El primer tramo (−0,10 %) es una hipótesis. Actualízala con el pre-market y el IPC antes de usarla. Además, las fuentes consultadas discrepan en el cierre del Nasdaq Composite (−0,15 % vs −0,44 %) y el cierre del QQQ procede de un único resultado de búsqueda: verifícalo en Yahoo Finance/Nasdaq.com.
+</div>
+
+<div class="kpis">
+<div class="kpi"><b>743,57 $</b><span>Cierre QQQ 13-oct (−0,33 %)</span></div>
+<div class="kpi"><b class="up">745,06 $</b><span>Cierre estimado (+0,20 %)</span></div>
+<div class="kpi"><b class="up">746,17 $</b><span>Máximo est. · 13:30–14:00</span></div>
+<div class="kpi"><b class="dn">741,71 $</b><span>Mínimo est. · 9:30–10:00</span></div>
+</div>
+
+<h2>Recorrido estimado</h2>
+<div class="card chart">
+<svg viewBox="0 0 760 240" role="img" aria-label="Precio estimado del QQQ por tramos">
+<g stroke="currentColor" stroke-opacity=".15"><line x1="50" y1="30" x2="740" y2="30"/><line x1="50" y1="90" x2="740" y2="90"/><line x1="50" y1="150" x2="740" y2="150"/><line x1="50" y1="210" x2="740" y2="210"/></g>
+<g fill="currentColor" font-size="11" fill-opacity=".7" text-anchor="end"><text x="44" y="34">746,5</text><text x="44" y="94">745,0</text><text x="44" y="154">743,5</text><text x="44" y="214">742,0</text></g>
+<line x1="50" y1="140.5" x2="740" y2="140.5" stroke="#999" stroke-dasharray="4 4"/>
+<text x="738" y="136" font-size="10" text-anchor="end" fill="currentColor" fill-opacity=".6">cierre previo 743,57</text>
+<polyline id="line" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+<g id="pts" fill="#1d4ed8"></g>
+<g id="lbl" font-size="10" fill="currentColor" fill-opacity=".7" text-anchor="middle"></g>
+</svg>
+</div>
+
+<h2>Tabla de 14 tramos de 30 minutos</h2>
+<div class="wrap"><table id="t30">
+<thead><tr><th>Tramo (ET)</th><th>Sesgo</th><th>Var. tramo</th><th>Var. acum.</th><th>Precio est.</th><th>Conf.</th><th>Explicación</th></tr></thead>
+<tbody></tbody></table></div>
+
+<h2>Bloques de 1 hora</h2>
+<div class="wrap"><table>
+<thead><tr><th>Bloque (ET)</th><th>Sesgo</th><th>Var. bloque</th><th>Precio al final</th><th>Factor dominante</th></tr></thead>
+<tbody>
+<tr><td>9:00 – 10:00</td><td class="tag dn">BAJISTA SUAVE</td><td class="n dn">−0,25 %</td><td class="n">741,71 $</td><td>Reacción al IPC y a ASML; mínimo estimado del día.</td></tr>
+<tr><td>10:00 – 11:00</td><td class="tag up">ALCISTA SUAVE</td><td class="n up">+0,20 %</td><td class="n">743,20 $</td><td>Rebote técnico; inventarios EIA a las 10:30.</td></tr>
+<tr><td>11:00 – 12:00</td><td class="tag up">ALCISTA SUAVE</td><td class="n up">+0,20 %</td><td class="n">744,69 $</td><td>Cierre de Europa a las 11:30 y recuperación del cierre previo.</td></tr>
+<tr><td>12:00 – 13:00</td><td class="tag fl">LATERAL</td><td class="n up">+0,05 %</td><td class="n">745,06 $</td><td>Mediodía de poco volumen.</td></tr>
+<tr><td>13:00 – 14:00</td><td class="tag up">ALCISTA SUAVE</td><td class="n up">+0,15 %</td><td class="n">746,17 $</td><td>Compras previas a la Fed/Libro Beige; máximo estimado.</td></tr>
+<tr><td>14:00 – 15:00</td><td class="tag dn">BAJISTA SUAVE</td><td class="n dn">−0,15 %</td><td class="n">745,06 $</td><td>Toma de beneficios y coberturas antes del IPP del jueves.</td></tr>
+<tr><td>15:00 – 16:00</td><td class="tag fl">LATERAL</td><td class="n fl">0,00 %</td><td class="n">745,06 $</td><td>Desequilibrios de cierre moderados y resultados tras el cierre.</td></tr>
+</tbody></table></div>
+
+<h2>Veredicto del día</h2>
+<div class="card"><ul>
+<li><b>Sesgo global:</b> lateral con ligera inclinación alcista, tras una apertura floja. Cierre estimado <b>745,06 $ (+0,20 %)</b>.</li>
+<li><b>Máximo:</b> 746,17 $ (+0,35 %) en 13:30–14:00. <b>Mínimo:</b> 741,71 $ (−0,25 %) en 9:30–10:00. Recorrido previsto ≈ 4,46 $ (0,60 %); el ATR de 14 sesiones no se ha podido recalcular hoy (el del 9-oct era 8,52 $, 1,13 %), por lo que es una estimación prudente.</li>
+<li><b>Mayor riesgo:</b> 9:00–10:00 (IPC y ASML). <b>Mejor oportunidad:</b> rebote de 10:00 a 11:30 si el mínimo aguanta.</li>
+<li><b>Niveles (aproximados, sin datos de opciones):</b> soportes 743,23 $ (mínimo del 8-oct) y 741,71 $ (mínimo estimado); resistencias 748,37 $ y 753,30 $ (referencias del análisis del 12-oct, ya no verificadas).</li>
+<li><b>Escenario alternativo bajista:</b> IPC por encima del +0,6 % / 3,6 % y bono a 10 años por encima del 5,28 %: el QQQ perdería 740 $ y cerraría en torno al −0,8 % / −1,0 %.</li>
+<li><b>Escenario alternativo alcista:</b> IPC por debajo del consenso, bono bajo el 5,15 % y buenas guías de ASML/TSMC: recuperaría 748–750 $ (+0,6 % / +0,9 %).</li>
+<li><b>Tras el cierre:</b> vigilar el tono de TSMC y de los semiconductores de cara al jueves 15 (IPP, ventas minoristas y paro a las 8:30).</li>
+</ul></div>
+
+<h2>Contexto macro</h2>
+<div class="card"><ul>
+<li><b>Cierre del 13-oct:</b> S&amp;P 500 7.805,45 (−0,02 %); Nasdaq Composite entre −0,15 % (27.204,38) y −0,44 % según la fuente. Bancos mixtos: JPMorgan −0,9 %, Wells Fargo −3 %, Goldman con beneficios muy superiores al consenso (17,01 $ por acción frente a 13,02 $).</li>
+<li><b>Chips:</b> caída de memoria tras avances de la china CXMT en memoria propia.</li>
+<li><b>Renta fija:</b> 10 años ≈ 5,22 %. <b>Volatilidad:</b> VIX 16,87 (+10 %).</li>
+<li><b>Materias primas:</b> Brent 104–106 $, WTI Nov ≈ 93,94 $; oro 4.171 $; bitcoin ≈ 81.500 $.</li>
+<li><b>Calendario 14-oct:</b> IPC de septiembre 8:30 ET; ASML en preapertura; inventarios EIA 10:30 ET (a confirmar).</li>
+<li><b>No disponible:</b> pre-market del QQQ, NQ actualizado, VXN, Asia/Europa del día, put/call, gamma, FedWatch.</li>
+</ul></div>
+
+<h2>Fuentes</h2>
+<div class="card small"><ul>
+<li><a href="https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-13-134929825.html">Yahoo Finance – Stock Market Today, 13-oct-2026</a></li>
+<li><a href="https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026">TheStreet – 13-oct-2026</a></li>
+<li><a href="https://www.cnbc.com/2026/10/13/bank-earnings-live-updates.html">CNBC – resultados bancarios, 13-oct-2026</a></li>
+<li><a href="https://www.bbntimes.com/global-economy/s-p-500-falls-to-7-805-45-as-bank-earnings-meet-a-chip-selloff">BBN Times – S&amp;P 500 7.805,45</a></li>
+<li><a href="https://stoculator.com/stock/QQQ/historical">Stoculator – histórico QQQ</a> (cierre 743,57 $)</li>
+<li>Archivos locales: <code>analisis_QQQ_2026-10-12.md</code> y <code>prompt_analisis_intradia_QQQ_2026-10-14.md</code></li>
+</ul></div>
+
+<p class="small"><b>Aviso legal:</b> Este análisis tiene carácter informativo y educativo. Las previsiones son estimaciones probabilísticas basadas en la información disponible a la hora de su elaboración y no constituyen una recomendación personalizada de inversión. Operar con ETF, índices y derivados implica riesgo de pérdida. Rentabilidades pasadas no garantizan rentabilidades futuras.</p>
+</main>
+<script>
+const base=743.57;
+const rows=[
+["9:00 – 9:30","BAJISTA SUAVE",-0.10,-0.10,742.83,52,"Hipótesis sin pre-market real: el QQQ cerró en mínimos tras la debilidad de los chips de memoria y el VIX subió a 16,87. Espera el IPC de las 8:30 (consenso +0,6 % / 3,6 %)."],
+["9:30 – 10:00","BAJISTA SUAVE (MÍNIMO DEL DÍA)",-0.15,-0.25,741.71,50,"Apertura de máxima volatilidad con ASML y el IPC digeridos a medias. El bono a 10 años en el 5,22 % limita el apetito por tecnológicas de crecimiento."],
+["10:00 – 10:30","ALCISTA SUAVE",0.10,-0.15,742.46,52,"Rebote técnico desde el mínimo, cerca del soporte del 8 de octubre (743,23 $). Las ventas de chips de memoria pierden ritmo."],
+["10:30 – 11:00","ALCISTA SUAVE",0.10,-0.05,743.20,53,"Inventarios semanales de la EIA (10:30 ET, a confirmar): con Brent por encima de 100 $, un dato neutro da alivio a los costes energéticos."],
+["11:00 – 11:30","ALCISTA SUAVE",0.15,0.10,744.69-0.38,55,"El QQQ recupera el cierre previo (743,57 $) en la antesala del cierre de Europa a las 11:30. Compras de recuperación tras la caída del martes."],
+["11:30 – 12:00","LATERAL",0.05,0.15,744.69,58,"Cierra Europa y baja la referencia internacional. El precio consolida por encima de 744 $."],
+["12:00 – 12:30","LATERAL",0.05,0.20,745.06,60,"Mediodía de poco volumen; la deriva la marca la renta fija, sin catalizadores nuevos."],
+["12:30 – 13:00","LATERAL",0.00,0.20,745.06,62,"Tramo de menor volumen del día; sin demanda de cobertura relevante, el precio se queda en rango."],
+["13:00 – 13:30","LATERAL",0.05,0.25,745.43,56,"Posicionamiento previo a la temporada de resultados tecnológicos y a TSMC; leve inclinación compradora."],
+["13:30 – 14:00","ALCISTA SUAVE (MÁXIMO DEL DÍA)",0.10,0.35,746.17,54,"Máximo estimado antes de las 14:00, cuando suelen salir el Libro Beige y discursos de la Fed. Falta volumen para romper 748 $."],
+["14:00 – 14:30","BAJISTA SUAVE",-0.10,0.25,745.43,55,"Primera toma de beneficios con los discursos de la Fed. El mercado ya descuenta una Fed más dura ante inflación del 3,6 %."],
+["14:30 – 15:00","LATERAL",-0.05,0.20,745.06,57,"Consolidación y coberturas ante el IPP y las ventas minoristas del jueves."],
+["15:00 – 15:30","LATERAL",-0.05,0.15,744.69,56,"Inicio de la power hour con prudencia antes de los resultados de después del cierre."],
+["15:30 – 16:00","LATERAL",0.05,0.20,745.06,55,"Desequilibrios MOC (≈15:50) moderados; el QQQ cierra ligeramente por encima del cierre previo."]
+];
+rows[4][4]=744.31;
+const fmt=(v,d=2)=>v.toLocaleString("es-ES",{minimumFractionDigits:d,maximumFractionDigits:d});
+const sg=v=>(v>0?"+":v<0?"−":"")+fmt(Math.abs(v))+" %";
+const cl=v=>v>0?"up":v<0?"dn":"fl";
+document.querySelector("#t30 tbody").innerHTML=rows.map(r=>`<tr><td>${r[0]}</td><td class="tag ${cl(r[2])}">${r[1]}</td><td class="n ${cl(r[2])}">${sg(r[2])}</td><td class="n ${cl(r[3])}">${sg(r[3])}</td><td class="n">${fmt(r[4])} $</td><td class="n">${r[5]} %</td><td>${r[6]}</td></tr>`).join("");
+const vals=[base,...rows.map(r=>r[4])],lo=741.5,hi=746.5,W=690,H=180;
+const X=i=>50+i*W/14,Y=v=>30+(hi-v)/(hi-lo)*H;
+document.getElementById("line").setAttribute("points",vals.map((v,i)=>X(i)+","+Y(v)).join(" "));
+document.getElementById("pts").innerHTML=vals.map((v,i)=>`<circle cx="${X(i)}" cy="${Y(v)}" r="3"/>`).join("");
+document.getElementById("lbl").innerHTML=[0,2,4,6,8,10,12,14].map(i=>`<text x="${X(i)}" y="230">${["9:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00"][i/2]}</text>`).join("");
+</script>
+</body>
+</html>
